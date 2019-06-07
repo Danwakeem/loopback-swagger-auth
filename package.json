@@ -1,0 +1,43 @@
+{
+  "name": "loopback-swagger-auth",
+  "version": "1.0.0",
+  "description": "Loopback component to add global auth to your swagger spec document",
+  "main": "index.js",
+  "scripts": {
+    "test:travis": "npm test | coveralls",
+    "test": "nyc mocha -r should *.spec.js && nyc report --reporter=text-lcov",
+    "lint": "eslint .",
+    "format": "prettier-eslint --write '**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danwakeem/loopback-swagger-auth.git"
+  },
+  "keywords": [
+    "loopback",
+    "swagger",
+    "component"
+  ],
+  "author": "Danwakeem",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danwakeem/loopback-swagger-auth/issues"
+  },
+  "homepage": "https://github.com/Danwakeem/loopback-swagger-auth#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier-eslint-cli": "^4.7.1",
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1",
+    "prettier": "^1.17.1",
+    "proxyquire": "^2.1.0",
+    "should": "^13.2.3",
+    "should-sinon": "0.0.6",
+    "sinon": "^7.3.2",
+    "coveralls": "^3.0.3"
+  }
+}
