@@ -1,5 +1,8 @@
 # Loopback Swagger Auth
 
+[![Build Status](https://travis-ci.com/Danwakeem/loopback-swagger-auth.svg?branch=master)](https://travis-ci.com/Danwakeem/loopback-swagger-auth)
+[![Coverage Status](https://coveralls.io/repos/github/Danwakeem/loopback-swagger-auth/badge.svg?branch=master)](https://coveralls.io/github/Danwakeem/loopback-swagger-auth?branch=master)
+
 This loopback component to add global authentication to your swagger spec file.
 
 > Note: This does not implement authentication it simply updates your swagger spec with global metadata. You can also technically use this to implement anything globally but I created it to add authentication to my spec file :)
